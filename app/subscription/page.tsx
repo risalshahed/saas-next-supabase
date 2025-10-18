@@ -1,6 +1,11 @@
+import { PricingTable } from "@clerk/nextjs"
+
 const Subscription = () => {
   return (
-    <div>Subscription</div>
+    <div>
+      <PricingTable />
+      {/* Start from 1 hour 39 minutes */}
+    </div>
   )
 }
 
